@@ -22,3 +22,110 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.ImageHeader{
+  background: url("../images/apple-pie.jpg") center no-repeat;
+  background-size: 100%;
+  height:550px;
+  width: 100%;
+  display: block;
+}
+
+.ImageHeader h1{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 90px;
+  font-weight: 15px;
+}
+
+.Main-Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  width: 80%;
+  height: 250px;
+}
+
+.description-font{
+  font-size: 25px;
+  font-weight: 50;
+}
+
+.description img{
+  width: 340px;
+}
+
+.gap-line{
+  width: 100%;
+  border-bottom: 2px solid gray;
+  border-radius: 2px;
+}
+
+.ingredients{
+  padding-top: 30px;
+  display:flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+  height: 470px;
+}
+
+.ingredients ul {
+  list-style-type: none;
+  padding-left: 27px;
+}
+.ingredients ul li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -7px;
+}
+
+.ingredients li{
+  font-size: 25px;
+}
+
+.ingredients-flexbox-img{
+  display: flex;
+  justify-content: center;
+  width: 100;
+}
+
+.ingredients img{
+  width: 340px;
+}
+
+.directions{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  width: 80%;
+  height: 450px;
+}
+
+.directions ol{
+  padding-left: 27px;
+}
+
+.directions li{
+  color:rgba(0, 0, 0, 0.801);
+  font-size:25px
+}
+
+.topic-header{
+  font-size:28px;
+}
